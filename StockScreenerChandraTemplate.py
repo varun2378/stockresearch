@@ -110,4 +110,4 @@ if search:
     st.dataframe(filtered_df)
 
 # Download Button
-st.download_button("Download Excel", data=open(excel_file, "rb").read(), file_name=excel_file, mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+#st.download_button("Download Excel", data=open(excel_file, "rb").read(), file_name=excel_file, mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
