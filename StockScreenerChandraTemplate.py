@@ -94,7 +94,7 @@ df = get_full_data(symbols)
 
 # Save to Excel
 excel_file = "US StocksQuarterly_Financials.xlsx"
-df.to_excel(excel_file, index=False)
+#df.to_excel(excel_file, index=False)
 
 # Streamlit UI
 st.title("📊 Financial Dashboard- US Stocks")
